@@ -2,10 +2,6 @@ import { defineNuxtConfig } from 'nuxt3'
 
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
-    nitro: {
-        preset: 'node',
-    },
-
     head: {
         meta: [
             { charset: "utf-8" },
@@ -40,5 +36,7 @@ export default defineNuxtConfig({
 
     buildModules: [
         '@nuxtjs/svg',
-    ]
+    ],
+
+    components: true,
 })
