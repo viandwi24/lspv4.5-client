@@ -33,6 +33,9 @@
 export default defineComponent({
   layout: 'page',
   setup() {
+    useMeta({
+      title: 'Daftar | LSP APP v4.5 - SMKN 1 MOJOKERTO',
+    })
     const form = reactive({
       email: '',
       password: '',

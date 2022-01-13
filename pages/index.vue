@@ -20,7 +20,12 @@
 
 <script lang="ts">
 export default defineComponent({
-  layout: 'page'
+  layout: 'page',
+  setup() {
+    useMeta({
+      title: 'LSP APP v4.5 - SMKN 1 MOJOKERTO',
+    })
+  }
 })
 </script>
 
