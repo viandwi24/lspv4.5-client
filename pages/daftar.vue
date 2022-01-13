@@ -1,5 +1,5 @@
 <template>
-  <div class="max-w-8xl mx-auto px-8 flex-1 flex w-full space-x-20">
+  <div class="max-w-8xl mx-auto px-8 flex-1 flex w-full md:space-x-20">
     <div class="w-1/2 hidden lg:flex flex-col justify-center">
       <div class="w-full">
         <ImageDoodle img="FloatDoodle" />
