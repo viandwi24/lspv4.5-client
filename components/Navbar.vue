@@ -16,9 +16,9 @@
           </NuxtLink>
           <!-- menu -->
           <div class="relative hidden lg:flex items-center ml-auto">
-            <nav class="text-sm leading-6 font-semibold text-gray-700 dark:text-gray-200">
+            <nav class="text-sm leading-6 font-semibold text-gray-600 dark:text-gray-300">
               <ul class="flex items-center space-x-8">
-                <li><Anchor class="hover:text-blue-600 dark:hover:text-blue-500 bg-red-500" :to="{ name: 'masuk' }">Masuk</Anchor></li>
+                <li><Anchor class="hover:text-blue-600 dark:hover:text-blue-500" :to="{ name: 'masuk' }">Masuk</Anchor></li>
                 <li><Button text="Daftar" size="xs" :to="{ name: 'daftar' }" class="font-extrabold" /></li>
               </ul>
             </nav>

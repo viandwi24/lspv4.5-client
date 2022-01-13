@@ -21,7 +21,7 @@ export default defineComponent({
     }
   },
   setup(props) {
-    const styles = "transition-all duration-300 hover:text-white hover:underline"
+    const styles = "transition-all duration-300 dark:hover:text-white hover:text-gray-900 hover:underline"
     const href = toRef(props, 'href')
     const to = toRef(props, 'to')
     return {
