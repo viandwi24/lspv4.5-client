@@ -1,11 +1,11 @@
 <template>
   <div class="inline-block">
-    <NuxtLink v-if="to" tag="a" :to="to" :class="`${selectedStyle} ${defaultStyle} ${selectedSize}`">
+    <NuxtLink v-if="to" tag="a" :to="to" :class="`${defaultStyle} ${selectedStyle} ${selectedSize}`">
       <slot>{{ text }}</slot>
     </NuxtLink>
     <a 
       v-else
-      :class="`${selectedStyle} ${defaultStyle} ${selectedSize}`"
+      :class="`${defaultStyle} ${selectedStyle} ${selectedSize}`"
       @click="onClick"
     >
       <slot>{{ text }}</slot>
@@ -37,6 +37,7 @@ export default defineComponent({
   setup(props, context) {
     // styles
     const defaultStyle = `
+      cursor-pointer
       border transition-all duration-300
       focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-50 
       font-semibold w-full flex items-center justify-center sm:w-auto

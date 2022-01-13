@@ -4,7 +4,6 @@
 
 <script lang="ts">
 import * as Doodles from '~/assets/doodles'
-import { createApp } from 'vue'
 
 export default defineComponent({
   props: {
