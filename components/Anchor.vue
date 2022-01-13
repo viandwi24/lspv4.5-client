@@ -1,17 +1,16 @@
 <template>
-  <div class="inline-block">
-    <a v-if="typeof to === 'undefined'" :href="href" :class="styles">
-      <slot />
-    </a>
-    <NuxtLink tag="a" :to="to" :class="styles">
-      <slot />
-    </NuxtLink>
-  </div>
+  <NuxtLink tag="a" :to="to" :class="styles">
+    <slot />
+  </NuxtLink>
 </template>
 
 <script lang="ts">
 export default defineComponent({
   props: {
+    class: {
+      type: String,
+      default: ''
+    },
     href: {
       type: String,
       default: '#'

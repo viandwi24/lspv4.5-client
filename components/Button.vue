@@ -40,7 +40,7 @@ export default defineComponent({
       cursor-pointer
       border transition-all duration-300
       focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-50 
-      font-semibold w-full flex items-center justify-center sm:w-auto
+      w-full flex items-center justify-center sm:w-auto
     `
     const styles = reactive({
       primary: "text-white bg-gray-800 hover:bg-white hover:text-gray-800 hover:border-gray-900 dark:text-gray-800 dark:bg-gray-100 dark:hover:bg-gray-800 dark:hover:text-gray-100 dark:border-white",

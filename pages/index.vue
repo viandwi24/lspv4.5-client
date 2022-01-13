@@ -23,7 +23,7 @@
         </span>
       </div>
       <div class="flex space-x-4 justify-center mt-10">
-        <Button size="lg" text="Masuk" :to="{ name: 'masuk' }" />
+        <Button size="lg" text="Masuk" :to="{ name: 'masuk' }" class="font-extrabold" />
         <Button size="lg" text="Daftar" type="secondary" :to="{ name: 'daftar' }" />
       </div>
     </div>
